@@ -1,7 +1,7 @@
 # The Scottish Quiz
 
 The Scottish Quiz is exactly that, a quiz about Scotland. This is a fun, interactive multiple choice quiz aimed to test and broaden the users knowledge of Bonnie Scotland! This quiz is aimed at people of all ages.
-There is 10 multiple choice questions and the user will have 10 seconds answer each of them. As the quiz progresses so does the difficulty level of each question.
+There is 5 multiple choice questions and the user will have 10 seconds answer each of them. As the quiz progresses so does the difficulty level of each question.
 
 ## Design
 
