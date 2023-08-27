@@ -54,10 +54,9 @@ There is 5 multiple choice questions and the user will have 10 seconds answer ea
 ### Game Area
 
 - The game area is where the user will be met with a question and four multiple choice answers.
-- 
-  - By clicking the answer the user wishes to submit the user will immediately be informed if their selection has been right or wrong and then move to the next question.
-  - At the bottom of this page will be a section containing the number of correct and incorrect answers the user has provided as well as the question number the user is currently on.
-  - There will also be a countdown timer feature.
+- By clicking the answer the user wishes to submit the user will immediately be informed if their selection has been right or wrong and then move to the next question.
+- At the bottom of this page will be a section containing the number of correct and incorrect answers the user has provided as well as the question number the user is currently on.
+- There will also be a countdown timer feature.
  
 - ( ADD SCREENSHOTS OF QUESTION AND ANSWER AREAS, TIMER, SCOREBOARD AND QUESTION COUNTER WHEN COMPLETE)
  
