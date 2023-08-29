@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: rgb(0, 94, 184);
 }
 
 body {
     color: white;
+    background-color: rgb(0, 94, 184);
 }
 
 /* headings */
@@ -22,7 +22,7 @@ h2 {
 
 h1 {
     font-size: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 h2 {
@@ -38,10 +38,10 @@ p {
 
 .background_image {
     background-image: url(../images/edinburgh_castle_background_image.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    position: relative;
+    object-fit: contain;
 }
 
 .container {
@@ -51,6 +51,7 @@ p {
     justify-content: center;
     align-items: center;
     max-width: 70rem;
+    max-height: fit-content;
     margin: 0 auto;
 }
 
