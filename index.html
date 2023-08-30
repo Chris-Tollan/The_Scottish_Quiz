@@ -23,9 +23,23 @@
                       <h1>The Scottish Quiz</h1>
           <!-- start and Instructions buttons -->
           <!-- ADD INSTRUCTIONS MODAL HERE -->
-          <button class="button" aria-label="instructions-button">
+          <button id="modal_button" class="button" aria-label="instructions-button">
             <h2>Instructions</h2>
           </button>
+          <div id="instructions_modal" class="modal">
+            <div class="modal_content">
+            <span class="close_button">&times;</span>
+            <h2>Instructions</h2>
+            <p>Welcome to The Scottish Quiz! Here you can test your knowledge of beautiful Bonnie Scotland. However before diving in there is a few things you should know...
+                <ul><li>The quiz consists of 5 randomly selected multiple choice questions</li>
+                <li>Once you click your answer it can't be undone, so choose wisely!</li>
+            <li>You will have 10 seconds to answer each question</li>
+        <li>Your score will be displayed as the quiz progresses</li>
+    <li>At the end of the quiz create a username to add your score to the leaderboard</li>
+</ul>
+Good Luck!</p>
+            </div>
+          </div>
         <a class="button" href="leaderboard.html">
             <h2>Leaderboard</h2>
         </a>
@@ -34,5 +48,6 @@
       </div>
     </div>
     </section>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
