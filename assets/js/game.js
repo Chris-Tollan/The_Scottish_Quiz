@@ -344,10 +344,11 @@ function startQuiz() {
 };
 
 // function to load next question and answers //
-function getNewQuestion() {
+getNewQuestion = () => {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
+    console.log(availableQuestions);
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
@@ -355,13 +356,21 @@ function getNewQuestion() {
         choice.innerText = currentQuestion["choice" + number];
     });
 
-    acceptingAnswers = true;
-
-    // remove previous question so its not used again during active quiz //
     availableQuestions.splice(questionIndex, 1);
+
+    acceptingAnswers = true;
 };
 
-// function to select/check answers //
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswers) return;
 
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+        console.log(selectedAnswer);
+        getNewQuestion();
+    });
+});
 
 startQuiz();
