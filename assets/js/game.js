@@ -1,6 +1,8 @@
 // Global Selectors - DOM //
 const question = document.getElementById('question_text');
 const choices = Array.from(document.getElementsByClassName('choice_text'));
+const questionCounterNumber = document.getElementById('questionCounter');
+const incorrectScore = document.getElementById('incorrect');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -346,6 +348,7 @@ getNewQuestion = () => {
         return window.location.assign('/end.html');
     }
     questionCounter++;
+    questionCounterNumber.innerText = questionCounter;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -371,7 +374,6 @@ choices.forEach(choice => {
         // if correct choice will highlight green
         //if incorrect choice will highlight red
         // will then move to next question after set time
-
         const classToApply =
             selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
 
@@ -383,4 +385,7 @@ choices.forEach(choice => {
     });
 });
 
+// Score Board Function - If Question
+
+// start quiz function
 startQuiz();

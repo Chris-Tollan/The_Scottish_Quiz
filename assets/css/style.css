@@ -36,6 +36,8 @@ p {
 
 /* background image and menu area */
 
+.castle_home_link {}
+
 .background_image {
     background-image: url(../images/edinburgh_castle_background_image.jpg);
     background-position: center;
