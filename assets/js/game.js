@@ -15,7 +15,7 @@ let questions = [
         choice2: "Madrid",
         choice3: "Edinburgh",
         choice4: "Belfast",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What is Scotlands national dish?",
@@ -23,7 +23,7 @@ let questions = [
         choice2: "Haggis",
         choice3: "Pizza",
         choice4: "Stir Fry",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What is Scotlands national animal?",
@@ -31,7 +31,7 @@ let questions = [
         choice2: "Snake",
         choice3: "Bull",
         choice4: "Goat",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What is the highest mountain in Scotland?",
@@ -39,7 +39,7 @@ let questions = [
         choice2: "Ben Nevis",
         choice3: "Lhotse",
         choice4: "K2",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What colours make up the Scotland flag?",
@@ -47,7 +47,7 @@ let questions = [
         choice2: "Red and Blue",
         choice3: "Yellow and Green",
         choice4: "Claret and Amber",
-        correct: 1,
+        correct: 1
     },
     {
         question: "Which famous annual festival takes place in every August in Edinburgh?",
@@ -55,7 +55,7 @@ let questions = [
         choice2: "Glastonbury",
         choice3: "Isle of Wight",
         choice4: "The Fringe",
-        correct: 4,
+        correct: 4
     },
     {
         question: "How many counties are in Scotland?",
@@ -63,7 +63,7 @@ let questions = [
         choice2: "33",
         choice3: "12",
         choice4: "24",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What is Scotlands national instrument?",
@@ -71,7 +71,7 @@ let questions = [
         choice2: "Flute",
         choice3: "Bagpipes",
         choice4: "Saxophone",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What is the Loch Ness monsters nickname?",
@@ -79,7 +79,7 @@ let questions = [
         choice2: "Senga",
         choice3: "Bessie",
         choice4: "Helga",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What sport was invented in Scotland?",
@@ -87,7 +87,7 @@ let questions = [
         choice2: "Tennis",
         choice3: "Boxing",
         choice4: "Golf",
-        correct: 4,
+        correct: 4
     },
     {
         question: "What is the biggest Loch in Scotland?",
@@ -95,7 +95,7 @@ let questions = [
         choice2: "Loch Ness",
         choice3: "Loch Awe",
         choice4: "Loch Goil",
-        correct: 1,
+        correct: 1
     },
     {
         question: "How many islands are there in Scotland?",
@@ -103,7 +103,7 @@ let questions = [
         choice2: "790",
         choice3: "542",
         choice4: "328",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What is the oldest University in Scotland?",
@@ -111,7 +111,7 @@ let questions = [
         choice2: "St Andrews",
         choice3: "Caledonian",
         choice4: "University of Stirling",
-        correct: 2,
+        correct: 2
     },
     {
         question: "Which Scottish actor portrayed James Bond?",
@@ -119,7 +119,7 @@ let questions = [
         choice2: "Gerard Butler",
         choice3: "Sean Connery",
         choice4: "James McAvoy",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What is the name of the famous Scottish patern?",
@@ -127,7 +127,7 @@ let questions = [
         choice2: "Pinstripe",
         choice3: "Checkered",
         choice4: "Spotted",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What is the most popular soft drink in Scotland?",
@@ -135,7 +135,7 @@ let questions = [
         choice2: "Irn Bru",
         choice3: "Fanta",
         choice4: "Tizer",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What is the name of the Scottish flag?",
@@ -143,7 +143,7 @@ let questions = [
         choice2: "Saltire",
         choice3: "Bear Flag",
         choice4: "Bonnie Blue Flag",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What is the name of the pouch worn at the front of a kilt?",
@@ -151,7 +151,7 @@ let questions = [
         choice2: "Coin Bag",
         choice3: "Whisky Flap",
         choice4: "Sporran",
-        correct: 4,
+        correct: 4
     },
     {
         question: "How long must Scottish Whisky be matured for to become Whisky?",
@@ -159,7 +159,7 @@ let questions = [
         choice2: "3 years",
         choice3: "8 years",
         choice4: "12 years",
-        correct: 2,
+        correct: 2
     },
     {
         question: "Who is the national poet of Scotland?",
@@ -167,7 +167,7 @@ let questions = [
         choice2: "William Wallace",
         choice3: "Walter Scott",
         choice4: "William Dunbar",
-        correct: 2,
+        correct: 2
     },
 
     {
@@ -176,7 +176,7 @@ let questions = [
         choice2: "Crieff",
         choice3: "Inverness",
         choice4: "Lanark",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What is the oldest sport in Scotland?",
@@ -184,7 +184,7 @@ let questions = [
         choice2: "Darts",
         choice3: "Tennis",
         choice4: "Volleyball",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What town is known as the home of Golf?",
@@ -192,7 +192,7 @@ let questions = [
         choice2: "Bellshill",
         choice3: "Cumbernauld",
         choice4: "St Andrews",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What is new year called in Scotland?",
@@ -200,7 +200,7 @@ let questions = [
         choice2: "Hogmanay",
         choice3: "New In",
         choice4: "Another year",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What sport does Andy Murray play?",
@@ -208,7 +208,7 @@ let questions = [
         choice2: "Golf",
         choice3: "Fishing",
         choice4: "Long Jump",
-        correct: 1,
+        correct: 1
     },
     {
         question: "What are neeps and tatties?",
@@ -216,7 +216,7 @@ let questions = [
         choice2: "Cabbage and Brocolli",
         choice3: "Beans and Rice",
         choice4: "Turnip and Potato",
-        correct: 4,
+        correct: 4
     },
     {
         question: "Where is comedian Billy Connelly from?",
@@ -224,7 +224,7 @@ let questions = [
         choice2: "Aberdeen",
         choice3: "Glasgow",
         choice4: "Edinburgh",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What alcohol is Scotlland most famous for producing?",
@@ -232,7 +232,7 @@ let questions = [
         choice2: "Gin",
         choice3: "Vodka",
         choice4: "Whisky",
-        correct: 4,
+        correct: 4
     },
     {
         question: "Which of the following towns is not in Scotland?",
@@ -240,7 +240,7 @@ let questions = [
         choice2: "Dull",
         choice3: "Peiness",
         choice4: "Bitchfield",
-        correct: 4,
+        correct: 4
     },
     {
         question: "How long is the West Highland Way?",
@@ -248,7 +248,7 @@ let questions = [
         choice2: "104 miles",
         choice3: "78 miles",
         choice4: "89 miles",
-        correct: 1,
+        correct: 1
     },
     {
         question: "When did Scotland become part of the United Kingdom?",
@@ -256,7 +256,7 @@ let questions = [
         choice2: "1680",
         choice3: "1707",
         choice4: "1876",
-        correct: 3,
+        correct: 3
     },
     {
         question: "What is the most populated city in Scotland?",
@@ -264,7 +264,7 @@ let questions = [
         choice2: "Glasgow",
         choice3: "Dundee",
         choice4: "Aberdeen",
-        correct: 2,
+        correct: 2
     },
     {
         question: "What country is to the South West of Scotland?",
@@ -272,7 +272,7 @@ let questions = [
         choice2: "Australia",
         choice3: "Russia",
         choice4: "Nothern Ireland",
-        correct: 4,
+        correct: 4
     },
     {
         question: "A munro is the name given to a Scottish Hill above what height?",
@@ -280,7 +280,7 @@ let questions = [
         choice2: "2500 feet",
         choice3: "7000 feet",
         choice4: "100 feet",
-        correct: 1,
+        correct: 1
     },
     {
         question: "Who invented the telephone?",
@@ -288,7 +288,7 @@ let questions = [
         choice2: "Robert Chime",
         choice3: "David Ringer",
         choice4: "Alexander Graham Bell",
-        correct: 4,
+        correct: 4
     },
     {
         question: "Scotland is home to the oldest what in Europe?",
@@ -296,7 +296,7 @@ let questions = [
         choice2: "Turtle",
         choice3: "Tree",
         choice4: "Squid",
-        correct: 3,
+        correct: 3
     },
     {
         question: "Where is the Wallace Monument?",
@@ -304,7 +304,7 @@ let questions = [
         choice2: "Lanark",
         choice3: "Motherwell",
         choice4: "Stirling",
-        correct: 4,
+        correct: 4
     },
     {
         question: "What did John Logie Baird invent?",
@@ -312,7 +312,7 @@ let questions = [
         choice2: "Radio",
         choice3: "Internet",
         choice4: "Coffee",
-        correct: 1,
+        correct: 1
     },
     {
         question: "Scotland is home to the worlds tallest?",
@@ -320,7 +320,7 @@ let questions = [
         choice2: "hedge",
         choice3: "hill",
         choice4: "thermometer",
-        correct: 2,
+        correct: 2
     },
     {
         question: "On what date is St Andrews day?",
@@ -328,19 +328,19 @@ let questions = [
         choice2: "January 25th",
         choice3: "November 30th",
         choice4: "March 11th",
-        correct: 2,
+        correct: 2
     },
 
 
 ];
-    
+
 function startQuiz() {
     questionCounter = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
 
-// function to load next question and answers //
+// load next question and answers //
 getNewQuestion = () => {
     if (questionCounter == 10) {
         return window.location.assign('/end.html');
@@ -348,7 +348,6 @@ getNewQuestion = () => {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    console.log(availableQuestions);
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
@@ -368,8 +367,19 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-        console.log(selectedAnswer);
-        getNewQuestion();
+
+        // if correct choice will highlight green
+        //if incorrect choice will highlight red
+        // will then move to next question after set time
+
+        const classToApply =
+            selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
+
+        selectedChoice.parentElement.classList.add(classToApply);
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 600);
     });
 });
 

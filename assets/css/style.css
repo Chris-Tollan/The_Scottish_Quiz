@@ -178,3 +178,11 @@ p {
     padding: 0.5rem;
     width: 100%;
 }
+
+.correct {
+    background-color: rgb(3, 248, 3);
+}
+
+.incorrect {
+    background-color: rgb(249, 39, 39);
+}
