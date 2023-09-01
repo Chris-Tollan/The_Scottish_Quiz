@@ -333,10 +333,7 @@ let questions = [
 
 
 ];
-
-// constants //
-const MAX_QUESTIONS = 5;
-
+    
 function startQuiz() {
     questionCounter = 0;
     availableQuestions = [...questions];
@@ -345,6 +342,9 @@ function startQuiz() {
 
 // function to load next question and answers //
 getNewQuestion = () => {
+    if (questionCounter == 10) {
+        return window.location.assign('/end.html');
+    }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
