@@ -154,7 +154,8 @@ p {
 
 /* quiz page */
 
-.game_question_area {
+.game_question_area,
+.end_content_area {
     height: auto;
     width: auto;
     border: 0.5rem solid white;
