@@ -3,6 +3,7 @@ const question = document.getElementById('question_text');
 const choices = Array.from(document.getElementsByClassName('choice_text'));
 const questionCounterNumber = document.getElementById('questionCounter');
 const incorrectScore = document.getElementById('incorrect');
+const correctScore = document.getElementById('correct');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -377,15 +378,38 @@ choices.forEach(choice => {
         const classToApply =
             selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
 
+        if (classToApply === 'correct') {
+            incrementCorrectScore();
+        } else {
+            incrementIncorrectScore();
+        }
+
         selectedChoice.parentElement.classList.add(classToApply);
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 600);
+
     });
 });
 
-// Score Board Function - If Question
+// function for score board to increment by 1 if
+// correct choice
+function incrementCorrectScore() {
+
+    let correctScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++correctScore;
+
+}
+
+// function for score board to increment by 1 if
+// correct choice
+function incrementIncorrectScore() {
+
+    let incorrectScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++incorrectScore;
+
+}
 
 // start quiz function
 startQuiz();
