@@ -210,3 +210,12 @@ p {
 #question_text {
     font-size: 2rem;
 }
+
+/* end page */
+input {
+    width: 16rem;
+    text-align: center;
+    border: 0.2rem solid white;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}

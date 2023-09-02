@@ -2,8 +2,6 @@
 const question = document.getElementById('question_text');
 const choices = Array.from(document.getElementsByClassName('choice_text'));
 const questionCounterNumber = document.getElementById('questionCounter');
-const incorrectScore = document.getElementById('incorrect');
-const correctScore = document.getElementById('correct');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -344,6 +342,8 @@ function startQuiz() {
 };
 
 // load next question and answers //
+// set questions to total of 10 //
+// when question limit reached save score and navigate to end page //
 getNewQuestion = () => {
     if (questionCounter == 10) {
         return window.location.assign('/end.html');
@@ -399,7 +399,7 @@ function incrementCorrectScore() {
 
     let correctScore = parseInt(document.getElementById("correct").innerText);
     document.getElementById("correct").innerText = ++correctScore;
-
+    localStorage.setItem('newestScore', correctScore);
 }
 
 // function for score board to increment by 1 if
