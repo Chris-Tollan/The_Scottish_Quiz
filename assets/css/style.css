@@ -219,3 +219,12 @@ input {
     border-radius: 25px;
     margin-bottom: 1rem;
 }
+
+/* leaderboard */
+.leaderboard_background_image {
+    background-image: url(../images/saltire.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    object-fit: contain;
+}
