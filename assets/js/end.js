@@ -1,3 +1,5 @@
+// update score on end page//
+// make add to leadboard button diabled unless username typed //
 let username = document.getElementById('clan');
 let addToLeaderboardButton = document.getElementById("add_to_leaderboard_button");
 let endScore = document.getElementById('endscore');
