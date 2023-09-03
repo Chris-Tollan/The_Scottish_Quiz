@@ -15,21 +15,22 @@
 
 <body>
     <div class="container">
+        <!-- background and header -->
         <div class="background_image">
             <h1>The Scottish Quiz</h1>
                <div class="end_content_area"><p>Congratulations on completing the quiz. Just how much did you know about Scotland?</p>
+                <!-- score and submit to leaderboard area -->
             <h2>You Scored</h2><h2 id="endscore"></h2>
             <form>
                 <input type="text" name="clan" id="clan" placeholder="Name your Clan"/>
                 <button type="submit" class="button" id="add_to_leaderboard_button" onclick="addToLeaderboard(event)" disabled><p>Add to Leaderboard</p></button>
             </form> 
-            <div>
-                <h2>Leaderboard</h2>
-                <ol id="leaderboard_list"></ol>
-            </div>
+            <!-- view leaderboard and return home buttons -->
+            <a class="button" href="/leaderboard.html">
+                <p>Leaderboard</p>
+            </a>
             <a class="button" href="/index.html"><p>Try again</p></a>
-                        </div>
-            
+                        </div>            
     </div>
     <script src="assets/js/end.js"></script>
 </body>

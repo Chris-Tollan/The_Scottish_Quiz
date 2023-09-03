@@ -8,7 +8,7 @@ let acceptingAnswers = false;
 let questionCounter = 0;
 let availableQuestions = [];
 
-// list of 50 questions for selection //
+// list of 40 questions for selection //
 let questions = [
     {
         question: "What is the Capital of Scotland?",
@@ -193,7 +193,7 @@ let questions = [
         choice2: "Bellshill",
         choice3: "Cumbernauld",
         choice4: "St Andrews",
-        correct: 3
+        correct: 4
     },
     {
         question: "What is new year called in Scotland?",

@@ -5,8 +5,8 @@ let username = document.getElementById('clan');
 let addToLeaderboardButton = document.getElementById("add_to_leaderboard_button");
 let endScore = document.getElementById('endscore');
 let newestScore = localStorage.getItem('newestScore');
-
 let topScores = JSON.parse(localStorage.getItem('topScores')) || [];
+const MAX_TOP_SCORES = 5;
 
 endScore.innerText = newestScore;
 
@@ -15,7 +15,6 @@ username.addEventListener('keyup', () => {
 });
 
 addToLeaderboard = e => {
-
     e.preventDefault();
 
     let score = {
@@ -27,6 +26,5 @@ addToLeaderboard = e => {
         return b.score - a.score;
     });
     topScores.splice(5);
-
     localStorage.setItem('topScores', JSON.stringify(topScores));
 };
