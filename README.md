@@ -1,8 +1,21 @@
 # The Scottish Quiz
 
 The Scottish Quiz is exactly that, a quiz about Scotland. This is a fun, interactive multiple choice quiz aimed to test and broaden the users knowledge of Bonnie Scotland! This quiz is aimed at people of all ages.
-There is 5 multiple choice questions and the user will have 10 seconds answer each of them. As the quiz progresses so does the difficulty level of each question.
+There is 10 muliple choice question that the user must answer.
 
+## User Experience
+
+### User Stories
+
+- First Time Visitor Goals
+    - The user wants to play a multiple choice general knowledge quiz about Scotland.
+    - The user wants to be able to access the quiz across a variety of devices whilst receiving the same experience.
+    - The user wants the quiz format and layout to be simple and easy to understand but still remain catchy and themed to the content of the quiz.
+
+- Returning and Frequent Visitor Goals
+    - The user want to be able to record their score and view it on a leaderboard in order to better their score and compete against other users.
+    - The user wants to be asked different questions so the quiz isn't repetitive.
+      
 ## Design
 
 - For this project I initially sketched how I intended for the game to look on a notepad. I thereafter used Balsamiq Wireframes to plan the project as shown below.
@@ -47,7 +60,7 @@ There is 5 multiple choice questions and the user will have 10 seconds answer ea
 
 ### Home Page
 
-- The home page will feature the heading at the top of the page with the name of this quiz, the main background image of the beautiful Edinburgh Castle with buttons to display the instructions, leaderboard and to start quiz. There is also an area her to enter your username so that your quiz score can also be stored on the leaderboard.
+- The home page will feature the heading at the top of the page with the name of this quiz, the main background image of the beautiful Edinburgh Castle with buttons to display the instructions, leaderboard and to start quiz.
 
 - (ADD SCREENSHOTS OF HEADER, INSTRUCTION AREA AND START BUTTON WHEN COMPLETE)
 
@@ -85,7 +98,8 @@ There is 5 multiple choice questions and the user will have 10 seconds answer ea
 
 ## Credits 
 
-
+- In preperation for this project I reached out to some of my fellow Code Institute Students and Alumni and was made aware of an excellant tutorial on youTube for creating multiple choice quiz's using javascript. This tutorial assited me greatly with preparing and completing this project. Some of the code including the JavaScript used for parts of the question and answers as well as to store users scores and update the leaderboard that I have used has been taken from this tutorial and adapted where necessary to complete this project. - (include link to youtube  tutorial here)
+- As always my Code Institute mentor has been a great help with offering his help, guidance and expertise.
 
 ### Content 
 
