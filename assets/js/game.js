@@ -40,7 +40,7 @@ let questions = [
         choice2: "Ben Nevis",
         choice3: "Lhotse",
         choice4: "K2",
-        correct: 1
+        correct: 2
     },
     {
         question: "What colours make up the Scotland flag?",
