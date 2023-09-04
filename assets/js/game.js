@@ -170,7 +170,6 @@ let questions = [
         choice4: "William Dunbar",
         correct: 1
     },
-
     {
         question: "What Scottish town was once famous for its steel production?",
         choice1: "Motherwell",
