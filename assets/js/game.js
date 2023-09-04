@@ -168,7 +168,7 @@ let questions = [
         choice2: "William Wallace",
         choice3: "Walter Scott",
         choice4: "William Dunbar",
-        correct: 2
+        correct: 1
     },
 
     {
@@ -228,7 +228,7 @@ let questions = [
         correct: 3
     },
     {
-        question: "What alcohol is Scotlland most famous for producing?",
+        question: "What alcohol is Scotland most famous for producing?",
         choice1: "Wine",
         choice2: "Gin",
         choice3: "Vodka",
