@@ -14,7 +14,8 @@ body {
 /* headings */
 
 h1,
-h2 {
+h2,
+.button {
     font-family: UnifrakturCook;
     color: white;
     -webkit-text-stroke: 0.1rem rgb(0, 94, 184);
@@ -26,7 +27,8 @@ h1 {
     padding-bottom: 1rem;
 }
 
-h2 {
+h2,
+.button {
     font-size: 2rem;
 }
 
