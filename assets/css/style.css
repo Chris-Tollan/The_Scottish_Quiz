@@ -44,19 +44,6 @@ p {
 
 /* background image and menu area */
 
-.home_link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    ;
-    font-size: 2.5rem;
-    color: white;
-    cursor: pointer;
-    padding-bottom: 1rem;
-    -webkit-text-stroke: 0.1rem rgb(0, 94, 184);
-}
-
 .background_image {
     background-image: url(../images/edinburgh_castle_background_image.jpg);
     background-position: center;
