@@ -24,18 +24,16 @@ There is 10 muliple choice question that the user must answer.
 
   - The home page will feature the heading at the top of the page with the name of this quiz, the main background image of the beautiful Edinburgh Castle with game instructions and finally the start button to begin the game.
 
-![Home Screen](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/04df11e0-c9cb-442c-947a-d91adbc39535)
-
+![Home](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/a4b7b526-954f-4a56-b966-e1444af7deba)
 
 ### Game Area
 
-![Game Area](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/a98bf78a-f203-4695-885e-a8f0993fd725)
-
-
+![Quiz](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/7f24a55f-cc2a-45e7-b75d-f8b1bd9a6f8d)
 
 ### Final Screen
 
-![Final Screen](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/2dd8342f-2856-4791-926c-fc15ea79e238)
+![End](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/1a4df4d7-ea28-4ed1-b1c4-482e0b9482ca)
+
 
 
 ### Background Image
