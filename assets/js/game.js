@@ -345,7 +345,7 @@ function startQuiz() {
 // when question limit reached save score and navigate to end page //
 getNewQuestion = () => {
     if (questionCounter == 10) {
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     questionCounter++;
     questionCounterNumber.innerText = questionCounter;
