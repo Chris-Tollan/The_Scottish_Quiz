@@ -127,7 +127,7 @@ The project was deployed to GitHub pages using the following steps...
 
 ## Credits 
 
-- In preperation for this project I reached out to some of my fellow Code Institute Students and Alumni and was made aware of an excellant tutorial on youTube for creating multiple choice quiz's using javascript. This tutorial assited me greatly with preparing and completing this project. Some of the code including the JavaScript used for parts of the question and answers as well as to store users scores and update the leaderboard that I have used has been taken from this tutorial and adapted where necessary to complete this project. - (include link to youtube  tutorial here)
+- In preperation for this project I reached out to some of my fellow Code Institute Students and Alumni and was made aware of an excellant tutorial on youTube for creating multiple choice quiz's using javascript. This tutorial assited me greatly with preparing and completing this project. Some of the code including the JavaScript used for parts of the question and answers as well as to store users scores and update the leaderboard that I have used has been taken from this tutorial and adapted where necessary to complete this project. - [James Q Quick Youtube Tutorial](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
 
 ### Content 
 
