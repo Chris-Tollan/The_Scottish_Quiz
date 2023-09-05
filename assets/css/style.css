@@ -187,7 +187,7 @@ p {
 
 .choice_prefix {
     background-color: white;
-    border: .01 solid rgb(0, 94, 184);
+    border: 0.1rem solid rgb(0, 94, 184);
     border-radius: 25px;
     color: rgb(0, 94, 184);
     padding: 0.5rem 0.7rem;
