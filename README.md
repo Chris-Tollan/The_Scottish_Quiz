@@ -1,5 +1,7 @@
 # The Scottish Quiz
 
+![Am I Responsive Image](https://github.com/Chris-Tollan/The_Scottish_Quiz/assets/134441833/9fbf1186-8d37-4cee-a63b-5720233ec9a4)
+
 The Scottish Quiz is exactly that, a quiz about Scotland. This is a fun, interactive multiple choice quiz aimed to test and broaden the users knowledge of Bonnie Scotland! This quiz is aimed at people of all ages.
 There is 10 muliple choice question that the user must answer.
 
