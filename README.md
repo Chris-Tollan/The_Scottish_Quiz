@@ -69,15 +69,40 @@ There is 10 muliple choice question that the user must answer.
 - The game area is where the user will be met with a question and four multiple choice answers.
 - By clicking the answer the user wishes to submit the user will immediately be informed if their selection has been right or wrong and then move to the next question.
 - At the bottom of this page will be a section containing the number of correct and incorrect answers the user has provided as well as the question number the user is currently on.
-- There will also be a countdown timer feature.
  
-- ( ADD SCREENSHOTS OF QUESTION AND ANSWER AREAS, TIMER, SCOREBOARD AND QUESTION COUNTER WHEN COMPLETE)
+- ( ADD SCREENSHOTS OF QUESTION AND ANSWER AREAS, SCOREBOARD AND QUESTION COUNTER WHEN COMPLETE)
  
 ### Final Screen
 
 - This page will be the final screen displayed on completetion of the quiz. Here the user will be met with their final score and presented with the option to submit their score to the leaderboard and also to restart the game.
 
 - (ADD SCREENSHOTS OF FINAL SCORE AREA, USERNAME SUBMISSION BOX AND LEADERBOARD WHEN COMPLETE)
+
+## Features
+
+- Responsive on all devices
+- Interactive
+
+### Features that could be added
+
+- Difficulty settings of Easy, Medium and Hard which could be selected by the user, a countdown timer could then added to the quiz depending on which difficulty was selected ie
+      - Easy = 15 seconds per question
+      - Medium = 10 seconds per question
+      - Hard = 5 seconds per question
+
+## Technologies Used
+
+### Languages Used
+- HTML5
+- CSS
+- JavaScript
+
+### Frameworks, Libraries and Programs Used
+- Google Fonts
+- Balsamiq
+- Code Anywhere
+- GitHub
+- Cloud Convert
 
 ## Testing 
 
@@ -94,18 +119,30 @@ There is 10 muliple choice question that the user must answer.
 
 ## Deployment
 
-
+The project was deployed to GitHub pages using the following steps...
+- Log in to GitHub and locate Github Repository for this project.
+- At the top of the Repository locate and select the Settings button.
+- Navigate to GitHub Pages Section.
+- Under source select the dropdown for None and select Main Branch.
+- The browser automatically refreshes.
+- The link to the published site can be seen in the GitHub Pages Sections.
 
 ## Credits 
 
 - In preperation for this project I reached out to some of my fellow Code Institute Students and Alumni and was made aware of an excellant tutorial on youTube for creating multiple choice quiz's using javascript. This tutorial assited me greatly with preparing and completing this project. Some of the code including the JavaScript used for parts of the question and answers as well as to store users scores and update the leaderboard that I have used has been taken from this tutorial and adapted where necessary to complete this project. - (include link to youtube  tutorial here)
-- As always my Code Institute mentor has been a great help with offering his help, guidance and expertise.
 
 ### Content 
 
-
+- All the content was written by myself as the developer for this project, the questions for the quiz were compiled from personal knowledge of Scotland and the answers for each question confirmed via google searches.
 
 ### Media
 
+- The background image for this project was obtained from pxhere and can be seen via this link - https://pxhere.com/en/photo/690084
+- The image was then reduced in file size using - https://cloudconvert.com/
+
+### Acknowledgements
+- My mentor for his continuous suppot, feedback and directions.
+- Code Institute for providing me with the knowledge and learning material required to complete this pproject.
+- My peers within the Slack Community for being there when I have needed guidance, advice and support.
 
 
