@@ -1,3 +1,4 @@
+// parts of the below javascript was completed and amended from the James Q Quick tutorial referenced in the readME for this project//
 // update score on end page//
 // make add to leadboard button diabled unless username typed //
 // log top scores to local storage and store top5 //

@@ -1,3 +1,4 @@
+// parts of the below javascript was completed and amended from the James Q Quick tutorial referenced in the readME for this project//
 // Global Selectors - DOM //
 const question = document.getElementById('question_text');
 const choices = Array.from(document.getElementsByClassName('choice_text'));
