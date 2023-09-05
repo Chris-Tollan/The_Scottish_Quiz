@@ -68,9 +68,6 @@ p {
     height: 100vh;
     display: flex;
     justify-content: center;
-
-    max-width: 120rem;
-    max-height: 100rem;
     margin: auto 0;
 }
 
