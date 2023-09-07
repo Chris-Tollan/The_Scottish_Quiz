@@ -16,43 +16,45 @@
   </head>
 
   <body>
-    <div class="container">
-      <!-- background image and header -->
-      <div class="background_image quiz_background">
-        <h1>The Scottish Quiz</h1>
-        <!-- question and answer area -->
-        <div id="quiz" class="game_question_area">
-          <h3 id="question_text">Question?</h3>
-          <div class="choice_container">
-            <p class="choice_prefix">A</p>
-            <p class="choice_text" data-number="1">Choice 1</p>
-          </div>
-          <div class="choice_container">
-            <p class="choice_prefix">B</p>
-            <p class="choice_text" data-number="2">Choice 2</p>
-          </div>
-          <div class="choice_container">
-            <p class="choice_prefix">C</p>
-            <p class="choice_text" data-number="3">Choice 3</p>
-          </div>
-          <div class="choice_container">
-            <p class="choice_prefix">D</p>
-            <p class="choice_text" data-number="4">Choice 4</p>
-          </div>
-          <!-- Score Board -->
-          <div id="scoreboard_area">
-            <div id="scoreboard">
-              <p>Correct <span id="correct">0</span></p>
-              <p>Incorrect <span id="incorrect">0</span></p>
+    <section class="background_image">
+      <div class="container">
+        <!-- background image and header -->
+        <div class="quiz_background">
+          <h1>The Scottish Quiz</h1>
+          <!-- question and answer area -->
+          <div id="quiz" class="game_question_area">
+            <!-- Score Board -->
+            <div id="scoreboard_area">
+              <div id="scoreboard">
+                <p>Correct <span id="correct">0</span></p>
+                <p>Incorrect <span id="incorrect">0</span></p>
+              </div>
+              <div id="question_counter_area">
+                <p>Question</p>
+                <p id="questionCounter"></p>
+              </div>
             </div>
-            <div id="question_counter_area">
-              <p>Question</p>
-              <p id="questionCounter"></p>
+            <h3 id="question_text">Question?</h3>
+            <div class="choice_container">
+              <p class="choice_prefix">A</p>
+              <p class="choice_text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice_container">
+              <p class="choice_prefix">B</p>
+              <p class="choice_text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice_container">
+              <p class="choice_prefix">C</p>
+              <p class="choice_text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice_container">
+              <p class="choice_prefix">D</p>
+              <p class="choice_text" data-number="4">Choice 4</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- link to javascript code -->
     <script src="assets/js/game.js"></script>
   </body>

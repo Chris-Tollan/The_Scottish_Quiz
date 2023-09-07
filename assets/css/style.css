@@ -63,14 +63,12 @@ p {
 .game_menu_area {
     height: auto;
     width: auto;
-    border: 0.5rem solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 1rem;
-    background-color: rgb(0, 94, 184, 0.5)
 }
 
 .button {
@@ -152,6 +150,11 @@ p {
     text-align: center;
     padding: 1rem;
     background-color: rgb(0, 94, 184, 0.5);
+    margin-top: 10%;
+}
+
+#scoreboard_area {
+    font-weight: bold;
 }
 
 .choice_container {
@@ -215,6 +218,14 @@ ol {
 }
 
 /* media queries for bigger screens */
+@media screen and (min-width:750px) {
+
+    .game_question_area,
+    .end_content_area {
+        margin-top: 18%;
+    }
+}
+
 @media screen and (min-width: 1000px) {
     h1 {
         font-size: 4.5rem;
@@ -222,5 +233,10 @@ ol {
 
     .modal_content {
         width: 50%;
+    }
+
+    .game_question_area,
+    .end_content_area {
+        margin-top: 25%;
     }
 }
