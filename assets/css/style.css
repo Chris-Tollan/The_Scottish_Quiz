@@ -39,7 +39,6 @@ p {
 }
 
 p {
-    font-size: 1.5rem;
     letter-spacing: 2px;
 }
 
@@ -48,6 +47,7 @@ p {
 .background_image {
     background-image: url(../images/edinburgh_castle_background_image.jpg);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     object-fit: contain;
@@ -238,10 +238,6 @@ ol {
 
     h2 {
         font-size: 3.5rem;
-    }
-
-    p {
-        font-size: 2.5rem;
     }
 
     .modal_content {
