@@ -17,6 +17,7 @@ username.addEventListener('keyup', () => {
 
 addToLeaderboard = e => {
     e.preventDefault();
+    window.open('leaderboard.html');
 
     let score = {
         score: newestScore,
