@@ -16,53 +16,54 @@
 
   <body>
     <section class="background_image">
-    <div class="container">
-      <!-- background and header -->
-      <div>
-        <h1>The Scottish Quiz</h1>
-        <div class="end_content_area">
-          <p>
-            Congratulations on completing the quiz. Just how much did you know
-            about Scotland?
-          </p>
-          <!-- score and submit to leaderboard area -->
-          <h2>You Scored</h2>
-          <h2 id="endscore">0</h2>
-          <form>
-            <input
-              type="text"
-              name="clan"
-              id="clan"
-              placeholder="Name your Clan"
-            />
-            <button
-              type="submit"
+      <div class="container">
+        <!-- background and header -->
+        <div>
+          <h1>The Scottish Quiz</h1>
+          <div class="end_content_area">
+            <p>
+              Congratulations on completing the quiz. Just how much did you know
+              about Scotland?
+            </p>
+            <!-- score and submit to leaderboard area -->
+            <h2>You Scored</h2>
+            <h2 id="endscore">0</h2>
+            <form>
+              <input
+                type="text"
+                name="clan"
+                id="clan"
+                class="button"
+                placeholder="Name your Clan"
+              />
+              <button
+                type="submit"
+                class="button"
+                id="add_to_leaderboard_button"
+                aria-label="add-username-to-leaderboard"
+                onclick="addToLeaderboard(event)"
+                disabled
+              >
+                Add to Leaderboard
+              </button>
+            </form>
+            <!-- view leaderboard and return home buttons -->
+            <a
               class="button"
-              id="add_to_leaderboard_button"
-              aria-label="add-username-to-leaderboard"
-              onclick="addToLeaderboard(event)"
-              disabled
+              href="leaderboard.html"
+              aria-label="display-leaderboard-button"
             >
-              Add to Leaderboard
-            </button>
-          </form>
-          <!-- view leaderboard and return home buttons -->
-          <a
-            class="button"
-            href="leaderboard.html"
-            aria-label="display-leaderboard-button"
-          >
-            Leaderboard
-          </a>
-          <a
-            class="button"
-            href="index.html"
-            aria-label="return-to-home--button"
-            >Try again</a
-          >
+              Leaderboard
+            </a>
+            <a
+              class="button"
+              href="index.html"
+              aria-label="return-to-home-button"
+              >Try again</a
+            >
+          </div>
         </div>
       </div>
-    </div>
     </section>
     <!-- link to javascript code -->
     <script src="assets/js/end.js"></script>

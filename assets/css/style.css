@@ -39,6 +39,7 @@ p {
 }
 
 p {
+    font-size: 1.5rem;
     letter-spacing: 2px;
 }
 
@@ -224,11 +225,23 @@ ol {
     .end_content_area {
         margin-top: 18%;
     }
+
+    h2 {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     h1 {
         font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 2.5rem;
     }
 
     .modal_content {
