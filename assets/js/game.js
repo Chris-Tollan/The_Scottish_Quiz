@@ -411,5 +411,7 @@ function incrementIncorrectScore() {
 
 }
 
-// start quiz function
-startQuiz();
+// start quiz function for when page has loaded //
+document.addEventListener("DOMContentLoaded", function () {
+    startQuiz();
+});
