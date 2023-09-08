@@ -111,7 +111,7 @@ p {
     width: 75%;
     box-shadow: 0 5px 8px 0 white;
     animation-name: fadeopen;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .close_button {
