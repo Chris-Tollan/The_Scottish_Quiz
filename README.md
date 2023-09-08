@@ -172,7 +172,7 @@ The project was deployed to GitHub pages using the following steps...
 - The image was then reduced in file size using - https://cloudconvert.com/
 
 ### Acknowledgements
-- My mentor for his continuous suppot, feedback and directions.
+- My mentor for his continuous support, feedback and directions.
 - Code Institute for providing me with the knowledge and learning material required to complete this pproject.
 - My peers within the Slack Community for being there when I have needed guidance, advice and support.
 
